@@ -16,7 +16,6 @@ namespace AzureServiceBusPublisher
     static void Main(string[] args)
     {
       var connectionString = "Endpoint=sb://financialmanager.servicebus.windows.net/;SharedAccessKeyName=Public;SharedAccessKey=vizEnn0n32MRAtKqsKA2NfHj3BLOICQxEliLQGaKK4w=;EntityPath=talkprocess";
-      //var connectionString = "Endpoint=sb://financialmanager.servicebus.windows.net/;SharedAccessKeyName=publicTest;SharedAccessKey=jypTLjXCdfFX+hhvNovA261Y07Qwz3JU1Fd/7jHVuOY=;EntityPath=talkprocesstest";
       connectionString = "sb://financialmanager.servicebus.windows.net";
       var token = "jypTLjXCdfFX+hhvNovA261Y07Qwz3JU1Fd/7jHVuOY=";
       var queueName = "talkprocesstest";

@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBusPublisher", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBusReciver", "AzureServiceBusReciver\AzureServiceBusReciver.csproj", "{24DF42E4-E728-4EFE-B106-857242B0F076}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonSQSPublisher", "AmazonSQSPublisher\AmazonSQSPublisher.csproj", "{977096EC-B5FA-476D-9C0C-9E9B083377BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{776AD528-4624-4655-A7E2-6577001C947C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{24DF42E4-E728-4EFE-B106-857242B0F076}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24DF42E4-E728-4EFE-B106-857242B0F076}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24DF42E4-E728-4EFE-B106-857242B0F076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{977096EC-B5FA-476D-9C0C-9E9B083377BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977096EC-B5FA-476D-9C0C-9E9B083377BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977096EC-B5FA-476D-9C0C-9E9B083377BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977096EC-B5FA-476D-9C0C-9E9B083377BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776AD528-4624-4655-A7E2-6577001C947C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776AD528-4624-4655-A7E2-6577001C947C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776AD528-4624-4655-A7E2-6577001C947C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776AD528-4624-4655-A7E2-6577001C947C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

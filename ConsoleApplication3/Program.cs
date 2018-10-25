@@ -1,5 +1,4 @@
 ﻿using DeptoDesenvFontes.ApoioProjetos.Comum.Utilitarios.TiposPadronizados;
-using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
